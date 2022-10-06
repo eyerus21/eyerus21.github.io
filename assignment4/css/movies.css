@@ -1,0 +1,131 @@
+body{
+    background-image: url("../images/background.png");
+    margin: 10px;
+}
+#banner{
+    border: 5px solid green;
+    width:100%;
+    height: 50px;
+    background-image: url("../images/banner.png");
+    background-repeat: repeat-x;
+}
+dt{
+    margin-top: 8px;
+}
+#page{
+    width:65%;
+    height:50px;
+    position: absolute;
+    top: 1182px;
+    right:245px;
+    border-radius: 20px;
+    background-color: #A2B964;
+}
+#pageIndex{
+    width:100px;
+    height:20px;
+    margin:auto;
+    font-weight: 500;
+}
+#container{
+    margin: auto;
+    border: 4px gray solid;
+    width:70%;
+    min-height: 1090px;
+    border-radius: 20px;
+}
+#imageContainer{
+    width: 74%;
+    height: 83px;
+    margin-top: 0px;
+    background-image: url("../images/rbg.png");
+    background-repeat: repeat-x; 
+}
+#thirtyThree{
+    color:red;
+    font-size: 50px;
+    font-weight: bolder;
+    vertical-align: center;
+}
+.imageAndPercent{
+    float:left;
+}
+#grid{
+    width:74%;
+    min-height: 660px;
+}
+#rightPane{
+    width:18.2%;
+    min-height: 787px;
+    position:absolute;
+    top: 132px;
+    right:15.2%;
+    border-radius: 20px;
+}
+.displayDiv{
+    margin-top:10px;
+}
+#title{
+    margin:auto;
+    width:20%;
+    height: 70px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#imageDiv{    
+    width:98.7%;
+    height: 330px;
+    background-image: url("../images/tmnt.png");
+    background-repeat: repeat; 
+    border-radius: 20px;   
+}
+#lookUpDiv{
+    margin-top: 0px;
+    width:98%;
+    min-height: 500px;
+    background-color: #A2B964;
+}
+#generalOverview{
+    position: relative;
+    top:0px;
+    font-weight: bolder;
+    font-size: 30px;
+    color:white;
+    font-family: Arial, 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+}
+.criticizer{
+    font-style: italic;
+}
+.gridDivs{
+    width:45%;
+    min-height:45px;    
+    margin-top:1px;
+    float:left;
+    margin-top:10px;
+    margin-left: 20px;
+    
+}
+.break{
+    clear: left;
+
+}
+.round{
+    border-radius: 10px;
+    border: 2px solid grey;
+    background-color: #E8DC9B;
+}
+.box{
+    float:left;
+    width:40px;
+    height:30px;
+    font-size: 10px;
+}
+.validatorIcon{
+    width:100px;
+    height:40px;    
+}
+.htmlCSSDiv{
+    float:right;
+    margin-right: 0px;
+}
