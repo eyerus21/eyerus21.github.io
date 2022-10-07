@@ -1,0 +1,39 @@
+.head{
+    text-align: center;
+    background-color: lightblue;
+    height: 50px;
+    padding-top: 15px;
+    font-size: 24px;
+    color: white;
+}
+.nav-main{
+    background-color: #0e6655;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.color a{
+    color: white;    
+}
+.main{
+    color: white;
+}
+.color{
+    color: white;
+}
+.col1{
+    min-height: 500px; 
+    background-color: #a6acaf;   
+}
+.col2{
+    min-height: 500px;  
+    background-color: #bdc3c7; 
+}
+.footer{
+    text-align: center;
+    background-color: #0e6655;
+    height: 50px;
+    padding-top: 15px;
+    font-size: 24px;
+    color: white;
+}
