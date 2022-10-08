@@ -1,0 +1,15 @@
+h2{
+    color:goldenrod;
+    text-align: center;
+    text-decoration: olivedrab;
+    font-weight: bold;
+}
+h4{
+    color:indigo;
+}
+
+p{
+    color:darkgreen;
+    position:relative;
+    padding-bottom: 0px;
+}
