@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functional Programming and RegEx</title>
+    <link href="./fucntional.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/functionalAndRegEx.js" ></script>
+</head>
+<body>
+    <h2>Part 1: Functional Programming</h2>
+
+    <h4> Q4: Define a function sum() and a function multiply() that sums and multiplies (respectively)
+        all the numbers in an array of numbers. 
+        For example, sum([1,2,3,4]) should return 10, and multiply([1,2,3,4]) 
+        should return 24.<br>
+       Q4:a) Sum of elements in array: 
+      <p> Ans:- function sum takes an array as its rguments and returns the sum of the elements</p>
+  </h4>
+<pre>
+    const sum=(arr)=>{
+        return arr.reduce((sum,element)=>sum+element,0);
+    }
+</pre>
+<h4> Q4:b. Product of elements in array 
+<p> Ans:- function product takes array as its arg and returns product of all the elements</p>
+</h4>
+<pre>
+    const multiply=(arr)=>{    
+        return arr.reduce((mult,element)=>mult*element,1);;
+    }
+</pre>
+<h4> Q5: Define a function reverse() that computes the reversal of a string. 
+        For example, reverse("jag testar") should return the string "ratset gaj".
+    <p> Ans:- function reverse takes string as its arg and returns reversed form it</p>
+</h4>
+    <pre>
+        const reverse=(str)=>{
+            return str.split('').reverse().join('');
+        }
+    </pre>  
+ 
+<h4> Q7: Write a function filterLongWords() that takes an array of words and 
+        an integer i and returns the array of words that are longer than i.
+<p> Ans:- function filterLongWords takes array and key as its args and returns filtered array</p>
+</h4>
+    <pre>
+    const filterLongWords = (words,key) =>{
+      const filteredArray = words.filter((elt, i, arr) =>{
+          return elt.length > key;
+        });
+        return filteredArray;
+    };
+</pre> 
+
+   <h2> Part 2: Regular Expressions </h2>
+
+   <div class="container">
+        <div id="item1">Email Address</div>
+        <div id="item2"><input id = "email" type="text" placeholder="Enter email"></div>
+        <div id="item3">We will never share your email with anyone else.</div>
+        <div id="item4">Password</div>
+        <div id="item5"><input id = "password" type="password" placeholder="Password" 
+            pattern="((?=.*\d)(?=.*[a-z])(?=.*[A Z]).{10,})" 
+            title="Must contain at least 10 characters, at least one number
+            and one uppercase and lowercase letter">
+        </div>
+        <div id="item6"><label><input type="checkbox"> Check me out</label></div>
+        <div id="item7"> <button id="submit" type="button">Submit</button> <div id="message"></div></div>
+   </div>
+</body>
+</html>
