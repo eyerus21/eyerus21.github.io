@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dome Market</title>
+    <link rel="stylesheet" href="dome.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <div class="brand">MUM Golden Dome Market : : : SRM System <span class="link">Product</span> <span
+                    class="link">Suppliers</span></div>
+            <!-- <ul class="nav">
+          <li class="link"></li>
+          <li class="link"></li>
+        </ul> -->
+        </div>
+        <div class="right">
+            <ul class="nav">
+                <li class="link-right">Help</li>
+                <li class="link-right">
+                    <button class="btn btn-out">Sign Out</button>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        
+            <h2>New Product Form</h2>
+            <div class="main">
+            <div class="form-class">
+                <div class="form-left">
+                    <span class="span-data">Product Number</span><br>
+                    <input type="text" pattern="/[a-zA-Z]/" />
+                    <span class="span-data">Name</span><br>
+                    <input type="text" pattern="/[a-zA-Z]/" />
+                    <span class="span-data">Unit Price</span><br>
+                    <input type="number" step="0.01" placeholder="0.0" />
+
+
+                </div>
+                <div class="form-right">
+                    <span class="span-data">Quantity in stock</span><br>
+                    <input type="number" placeholder="0" />
+                    <span class="span-data">Supplier</span><br>
+                    <select class="select" placeholder="Select a supplier">
+                        <option value="default">Select a supplier</option>
+                        <option value="Amazon">Amazon</option>
+                        <option value="Apple">Apple</option>
+                    </select>
+                    <span class="span-data">Date Supplied</span><br>
+                    <input type="date" pattern="/[a-zA-Z]/" title="please enter the right date" />
+                    <span class="info">Enter a valid Date.</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="b">
+            <button class="btn right-btn green"> Add Product</button>
+            <button class="btn right-btn yellow"> Cancel</button>
+            <button class="btn right-btn red"> Reset</button>
+         
+           
+        </div>
+        
+            
+       
+
+    </div>
+</body>
+
+</html>
