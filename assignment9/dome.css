@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.header{
+    width: 100vw;
+    height: 55px;
+    background-color: rgb(43, 130, 223);
+}
+.left{
+    float: left;
+    /* display: inline; */
+    padding: 10px;    
+    display: flex;
+    align-items:flex-start;
+    /* justify-content: space-around; */
+    color: white;
+}
+.brand{
+    font-size: 26px;
+}
+.nav{
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    font-size: 18px;
+    list-style: none;
+}
+ .link{
+    font-size: 18px;
+    padding: 10px;
+    border-left: 2px solid white;
+}
+.right{
+    float: right;
+    color: white;
+}
+.nav .link-right{
+    padding-right:  10px;
+    justify-content: center;
+}
+.btn{
+    height: 40px; 
+    padding: 10px;
+}
+.btn-out{
+    margin-top: -10px;
+}
+.container{
+    margin-left: 10%;
+    max-width: 80%;
+}
+.form-class{
+    margin: 2%;
+    width: 98%;
+    position: relative;
+    
+    display: block;
+}
+.form-left{    
+    width: 49%;
+    float: left;
+    display: block;
+}
+.form-right{
+    width: 49%;
+    float: right;
+}
+.span-data{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.select{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.info{
+    color: rgb(135, 133, 133);
+}
+form h1{
+    font-size: 26px;
+}
+.btn-rights{
+    width: 98%;
+    max-height: 65px;
+    background-color: antiquewhite;
+    
+    /* right: 10%;
+    bottom: 20%;
+    position: absolute; */
+    
+}
+.main{
+    min-width: 100%;
+    background-color: bisque;
+}
+.b{
+    
+    min-width: 500px;
+    bottom: 30%;
+    right: 10%;
+    position: absolute;
+}
+.right-btn{
+    float: right;
+    margin-left: 25px;
+    background-color: white;
+}
+.red{
+    outline-color: black;
+    border: none;
+    outline-style: outset;
+}
+.yellow{
+    outline-color: rgb(196, 112, 16);
+    outline-style: outset;
+    border: none;
+    color: rgb(196, 112, 16);
+}
+.green{
+    outline-color: rgb(61, 131, 237);
+    outline-style: outset;
+    border: none;
+    color: rgb(61, 131, 237);
+}
