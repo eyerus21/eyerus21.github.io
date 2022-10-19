@@ -1,0 +1,30 @@
+body{
+    margin:10px;
+}
+#container{
+    float:right;
+    width:85%;
+    height:400px;
+    position: relative;
+}
+#controller{
+    position: relative;
+    top: 50px;
+    border:3px unset gray;
+    float:left;
+    width: max-content;
+    height: max-content;
+    background-color: rgb(218, 245, 179);
+
+}
+#controller > div{
+    margin:5px;
+}
+#startButton{
+    background-color: rgb(9, 92, 248);
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    width:70px;
+    margin-left: 40px;
+}
